@@ -1,4 +1,5 @@
-const addTaskTrigger = document.getElementsByClassName('js-addTask-trigger')[0];
+const addTaskTrigger = document.getElementsByClassName('js-addTask-trigger')[0]\
+;
 const addTaskTarget = document.getElementsByClassName('js-addTask-target')[0];
 const addTaskValue = document.getElementsByClassName('js-addTask-value')[0];
 const removeTask = removeButton => {
@@ -19,3 +20,4 @@ addTaskTrigger.addEventListener('click', event => {
   addTask(task);
   addTaskValue.value = '';
 });
+
